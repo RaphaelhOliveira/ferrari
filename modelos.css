@@ -1,0 +1,43 @@
+/* Estilo para o header */
+header {
+    background-color: #333; /* Cor de fundo do header */
+    color: #fff; /* Cor do texto */
+    padding: 20px;
+}
+
+/* Estilo para a lista de navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Removendo sublinhado dos links */
+}
+
+/* Estilo para as seções de modelos */
+section {
+    padding: 20px;
+}
+
+/* Estilo para as imagens dos modelos */
+section img {
+    max-width: 100%; /* Garantindo que as imagens não ultrapassem a largura do contêiner */
+    display: block; /* Removendo espaços verticais em torno das imagens */
+    margin: 0 auto 20px; /* Centralizando as imagens horizontalmente e adicionando margem inferior */
+}
+
+/* Estilo para o footer */
+footer {
+    background-color: #333; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto no centro */
+    padding: 20px;
+}
