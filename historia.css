@@ -37,8 +37,11 @@ footer {
     padding: 20px;
 }
 .ferrari {
-            max-width: 600px;
-            height: 500px;
-            display: inline-block;
-            margin-right: 10px; 
-        }
+    width: 600px;
+    display: inline-block;
+    margin-right: 10px; /* Adicionando margem para separar as imagens */
+}
+
+.imagem-container {
+    margin-bottom: 20px; /* Adicionando margem inferior para separar das outras seções */
+}
