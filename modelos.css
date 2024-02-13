@@ -26,14 +26,6 @@ nav ul li a {
 section {
     padding: 20px;
 }
-
-/* Estilo para as imagens dos modelos */
-section img {
-    max-width: 100%; /* Garantindo que as imagens não ultrapassem a largura do contêiner */
-    display: block; /* Removendo espaços verticais em torno das imagens */
-    margin: 0 auto 20px; /* Centralizando as imagens horizontalmente e adicionando margem inferior */
-}
-
 /* Estilo para o footer */
 footer {
     background-color: #333; /* Cor de fundo do footer */
@@ -42,6 +34,8 @@ footer {
     padding: 20px;
 }
 .carros {
-max-width: 600px;
-height: 500px;
+    width: 600px; /* Define a largura das imagens */
+    max-width: 100%; /* Garante que as imagens não ultrapassem a largura do contêiner */
+    display: block; /* Remove espaços verticais em torno das imagens */
+    margin: 0 auto 20px; /* Centraliza as imagens horizontalmente e adiciona margem inferior */
 }
