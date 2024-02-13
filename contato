@@ -1,0 +1,68 @@
+/* Estilo para o header */
+header {
+    background-color: #333; /* Cor de fundo do header */
+    color: #fff; /* Cor do texto */
+    padding: 20px;
+}
+
+/* Estilo para a lista de navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Removendo sublinhado dos links */
+}
+
+/* Estilo para o formulário de contato */
+#formulario {
+    padding: 20px;
+}
+
+#formulario h2 {
+    margin-bottom: 20px;
+}
+
+#formulario form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+#formulario form label {
+    margin-bottom: 10px;
+}
+
+#formulario form input,
+#formulario form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#formulario form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#formulario form button:hover {
+    background-color: #555;
+}
+
+/* Estilo para o footer */
+footer {
+    background-color: #333; /* Cor de fundo do footer */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto no centro */
+    padding: 20px;
+}
