@@ -42,5 +42,6 @@ footer {
     padding: 20px;
 }
 .carros {
-
+max-width: 600px;
+height: 500px;
 }
