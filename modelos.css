@@ -1,6 +1,6 @@
 /* Estilo para o header */
 header {
-    background-color: #333; /* Cor de fundo do header */
+    background-color: red; /* Cor de fundo do header */
     color: #fff; /* Cor do texto */
     padding: 20px;
 }
