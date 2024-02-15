@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 #imagens img {
-    width: 33.33%; /* Cada imagem ocupa 1/3 da largura da seção */
+    width: 600px;
     height: auto; /* Altura automática para manter a proporção */
     margin-right: 10px; /* Espaçamento entre as imagens */
 }
