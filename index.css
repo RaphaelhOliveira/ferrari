@@ -1,55 +1,65 @@
-/* Estilo para o header */
+/* Estilos para index.html */
+
+/* Estilos para o cabeçalho */
 header {
-    background-color: red; /* Cor de fundo do header */
-    color: #fff; /* Cor do texto */
+    background-color: #333;
+    color: red;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos para a barra de navegação */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos para o corpo do texto */
+section#sobre {
     padding: 20px;
 }
 
-/* Estilo para a lista de navegação */
-nav ul {
+section#sobre p {
+    margin: 0 0 10px 0;
+}
+
+/* Estilos para as imagens */
+#imagens ol {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-nav ul li {
+#imagens ol li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
-nav ul li a {
-    color: #fff; /* Cor dos links */
-    text-decoration: none; /* Removendo sublinhado dos links */
-}
-
-/* Estilo para a seção "Sobre a Ferrari" */
-#sobre {
-    padding: 20px;
-}
-
-#sobre h2 {
-    margin-bottom: 20px;
-}
-
-#sobre p {
-    margin-bottom: 20px;
-}
-
-/* Estilo para as imagens */
-#imagens {
-    display: flex;
-}
-
-#imagens img {
-    width: 33.33%; /* Cada imagem ocupa 1/3 da largura da seção */
-    height: auto; /* Altura automática para manter a proporção */
-    margin-right: 10px; /* Espaçamento entre as imagens */
-}
-
-/* Estilo para o footer */
+/* Estilos para o rodapé */
 footer {
-    background-color: #333; /* Cor de fundo do footer */
-    color: #fff; /* Cor do texto */
-    text-align: center; /* Alinhamento do texto no centro */
-    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p u {
+    text-decoration: none;
 }
