@@ -1,41 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR"> <!-- Definição do idioma do documento -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contato.css"/>
-    <title>Contato Ferrari</title>
+    <meta charset="UTF-8"> <!-- Declaração do conjunto de caracteres UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuração da viewport para dispositivos móveis -->
+    <link rel="stylesheet" href="contato.css"/> <!-- Inclusão do arquivo de estilos CSS externo -->
+    <title>Contato Ferrari</title> <!-- Título da página -->
     <link rel="icon" type="image/x-icon" href="https://w7.pngwing.com/pngs/1016/221/png-transparent-ferrari-458-car-sticker-decal-ferrari-logo-ferrari-logo-logo-fictional-character-signage.png">
+    <!-- Ícone exibido na aba do navegador -->
 </head>
 <body>
+    <!-- Cabeçalho da página -->
     <header>
-        <h1>Contato Ferrari</h1>
+        <h1>Contato Ferrari</h1> <!-- Título principal -->
+        <!-- Barra de navegação -->
         <nav>
             <ul>
-                <li><a href="index.html">Sobre</a></li>
-                <li><a href="modelos.html">Modelos</a></li>
-                <li><a href="historia.html">História</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="https://www.ferrari.com/">Site Oficial</a></li> <!-- Redirecionamento Externo -->
+                <li><a href="index.html">Sobre</a></li> <!-- Link para a página "Sobre" -->
+                <li><a href="modelos.html">Modelos</a></li> <!-- Link para a página "Modelos" -->
+                <li><a href="historia.html">História</a></li> <!-- Link para a página "História" -->
+                <li><a href="contato.html">Contato</a></li> <!-- Link para a página "Contato" (página atual) -->
+                <li><a href="https://www.ferrari.com/">Site Oficial</a></li> <!-- Link externo para o site oficial da Ferrari -->
             </ul>
         </nav>
     </header>
 
+    <!-- Seção do formulário de contato -->
     <section id="formulario">
-        <h2>Formulário de Contato</h2>
-        <form action="#" method="post">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-            <button type="submit">Enviar</button>
+        <h2>Formulário de Contato</h2> <!-- Título da seção -->
+        <!-- Formulário para envio de mensagem -->
+        <form action="#" method="post"> <!-- Ação de envio para o próprio documento (não especificada) com o método POST -->
+            <label for="nome">Nome:</label> <!-- Campo para inserção do nome -->
+            <input type="text" id="nome" name="nome" required> <!-- Campo de texto obrigatório -->
+            <label for="email">Email:</label> <!-- Campo para inserção do email -->
+            <input type="email" id="email" name="email" required> <!-- Campo de email obrigatório -->
+            <label for="mensagem">Mensagem:</label> <!-- Campo para inserção da mensagem -->
+            <textarea id="mensagem" name="mensagem" required></textarea> <!-- Campo de texto (área de texto) obrigatório -->
+            <button type="submit">Enviar</button> <!-- Botão de envio do formulário -->
         </form>
     </section>
 
+    <!-- Rodapé da página -->
     <footer>
-        <p>&copy; 2024 Contato Ferrari</p>
+        <p>&copy; 2024 Contato Ferrari</p> <!-- Informação de direitos autorais -->
     </footer>
 </body>
 </html>
