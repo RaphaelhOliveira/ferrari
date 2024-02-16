@@ -67,3 +67,28 @@ footer {
     text-align: center; /* Alinhamento do texto no centro */
     padding: 20px;
 }
+/* Estilos para o cabeçalho */
+header {
+  text-align: center; /* Centralizando o conteúdo */
+}
+
+/* Estilos para a barra de navegação */
+nav {
+  text-align: center; /* Centralizando o conteúdo */
+}
+
+nav ul {
+  list-style-type: none; /* Removendo marcadores de lista */
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #000; /* Cor dos links */
+  text-decoration: none; /* Removendo sublinhado dos links */
+}
