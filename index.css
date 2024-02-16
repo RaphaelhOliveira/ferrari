@@ -18,7 +18,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff; /* Cor dos links */
+    color: white; /* Cor dos links */
     text-decoration: none; /* Removendo sublinhado dos links */
 }
 
@@ -49,7 +49,7 @@ nav ul li a {
 /* Estilo para o footer */
 footer {
     background-color: #333; /* Cor de fundo do footer */
-    color: #fff; /* Cor do texto */
+    color: white; /* Cor do texto */
     text-align: center; /* Alinhamento do texto no centro */
     padding: 20px;
 }
