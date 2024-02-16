@@ -5,11 +5,31 @@ body {
   padding: 0;
 }
 
+header {
+  background-color: #c00; /* Adicionando cor de fundo vermelha ao cabeçalho */
+  padding: 10px; /* Adicionando preenchimento ao cabeçalho */
+  text-align: center; /* Centralizando o conteúdo do cabeçalho */
+}
+
+nav ul {
+  list-style-type: none; /* Removendo marcadores de lista */
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff; /* Cor do texto dos links */
+  text-decoration: none; /* Removendo sublinhado dos links */
+}
+
 h1 {
   color: #c00;
   text-align: center;
-  background-color: red; /* Adicionando cor de fundo vermelha ao cabeçalho */
-  padding: 10px; /* Adicionando preenchimento ao cabeçalho */
 }
 
 form {
@@ -36,21 +56,4 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-/* Estilo para a lista de navegação */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff; /* Cor dos links */
-    text-decoration: none; /* Removendo sublinhado dos links */
 }
