@@ -34,15 +34,23 @@ body {
     box-sizing: border-box;
 }
 
-.login-form button {
+.login-form button,
+.login-form .btn-link {
     background-color: #c00;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none; /* Removendo sublinhado do link */
 }
 
-.login-form button:hover {
+.login-form button:hover,
+.login-form .btn-link:hover {
     background-color: #a00;
+}
+
+.login-form .btn-link {
+    display: block; /* Para que o link ocupe toda a largura disponível */
+    margin-top: 10px; /* Espaçamento superior */
 }
