@@ -3,6 +3,7 @@ header {
     background-color: #333; /* Cor de fundo do header */
     color: #fff; /* Cor do texto */
     padding: 20px;
+    text-align: center; /* Centralizando o conteúdo */
 }
 
 /* Estilo para a lista de navegação */
