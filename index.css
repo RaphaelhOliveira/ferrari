@@ -18,7 +18,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white; /* Cor dos links */
+    color: #fff; /* Cor dos links */
     text-decoration: none; /* Removendo sublinhado dos links */
 }
 
